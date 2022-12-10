@@ -1,0 +1,1 @@
+The data in this repository has been collected by [GenLite](https://github.com/Retoxified/GenLite) users, if you wish to join our efforts in documenting NPC data please check out the GenLite repository and join our discord!
