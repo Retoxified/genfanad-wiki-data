@@ -1509,66 +1509,6 @@
     "tradeable": true,
     "value": 20
   },
-  "campfire_bread_simple": {
-    "authoritativeKey": "campfire_bread_simple",
-    "computation": {
-      "success": {
-        "skill_bonus_max": 10,
-        "skill_bonus_multiplier": 1,
-        "station_bonus_max": 15,
-        "station_bonus_multiplier": 1,
-        "success_dc": 25
-      }
-    },
-    "interface": {
-      "icon": "cooking-bread",
-      "name": "Simple Bread"
-    },
-    "materials": {
-      "slot1": {
-        "cooking-ingredient-dough": {
-          "quality_base": 10,
-          "success_base": 9
-        },
-        "cooking-ingredient-dough_hq": {
-          "quality_base": 11,
-          "success_base": 10
-        },
-        "cooking-ingredient-dough_lq": {
-          "quality_base": 8,
-          "success_base": 7
-        }
-      }
-    },
-    "produces": {
-      "failure": {
-        "item": false,
-        "xp": 2.5
-      },
-      "hq": {
-        "item": "cooking-bread-simple_hq",
-        "quality_dc": 260,
-        "xp": 6
-      },
-      "lq": {
-        "item": "cooking-bread-simple_lq",
-        "quality_dc": 10,
-        "xp": 4
-      },
-      "mq": {
-        "item": "cooking-bread-simple",
-        "quality_dc": 60,
-        "xp": 4
-      }
-    },
-    "requirements": {
-      "skill": {
-        "level": 5
-      }
-    },
-    "sellable": true,
-    "tradeable": true
-  },
   "campfire_chicken": {
     "authoritativeKey": "campfire_chicken",
     "interface": {
@@ -26290,6 +26230,15 @@
     "tradeable": false,
     "type": "tool-generated",
     "value": 0
+  },
+  "quest-witchymoledigginholes-godwins_momento": {
+    "examine": "What Godwin found in the trash. It's yours to cherish.",
+    "image": "quest/witchymoledigginholes/godwins_momento.png",
+    "name": "Godwin's Momento",
+    "sellable": true,
+    "tradeable": false,
+    "type": "tool-generated",
+    "value": 10
   },
   "quest-you_shall_not_pass_go-journal_page_1": {
     "action": "Read",
